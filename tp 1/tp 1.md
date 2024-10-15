@@ -22,6 +22,19 @@ Pour mettre en place mon serveur j'ai lancé apache2, je suis aller jusqu'au fic
 Pour les autoriser j'ai utiliser les commandes sudo ufw allow 80 et  "" 22. Puis j'ai lancer mon parefeu avec sudo ufw enable.
 
 ### Sécuriser SSH
+![](securiser_ssh.png)
+Pour sécuriser ssh j'ai d'abord copier ma clé publique dans mon authorizes_keys, j'ai restreint les permission de connection par ssh dans mon sshd_config, puis j'ai relancé ssh et j'ai réussi à me connecter sans mdp
+
+### Aujouter MFA
+![](mfa.png)
+
+
+### Si fail alerte discord
+![](fain_discord.png)
+j'ai bash mon script et mon hook23 m'alerte lorsqu'il y a une personne qui rate le code google authentification
+
+
+### Mettre en place le TLS avec openssl
 ![](.png)
 
 
