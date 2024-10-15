@@ -32,13 +32,3 @@ Pour sécuriser ssh j'ai d'abord copier ma clé publique dans mon authorizes_key
 ### Si fail alerte discord
 ![](fain_discord.png)
 j'ai bash mon script et mon hook23 m'alerte lorsqu'il y a une personne qui rate le code google authentification
-
-
-### Mettre en place le TLS avec openssl
-![](.png)
-
-
-
-![](.png)
-
-![](.png)
