@@ -35,7 +35,9 @@ New-ADUser -Name "User 3" `
 ## Joignez le PC au domaine
 ![]() 
 ```
+pour ajouter mon PC à mon domaine, je suis allé dans "system" dans le control pannel, puis je suis aller dans "Advanced system settigns".
 
+Je suis ensuite aller dans "Computer Name" et j'ai fais "Change", j'ai ajouté "yboost.local" en nom de domaine et j'ai appliquer mes modifications
 ```
 
 
