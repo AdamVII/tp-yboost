@@ -145,7 +145,7 @@ func main() {
 	fmt.Scanln(&key)
 
 	// Chemin vers le dossier contenant les fichiers .txt
-	folderPath := `C:\Users\paph\Desktop\test`
+	folderPath := `C:\Users\benai\hidden-folder\`
 
 	// Parcourir tous les fichiers .txt dans le dossier
 	files, err := filepath.Glob(filepath.Join(folderPath, "*.txt"))
